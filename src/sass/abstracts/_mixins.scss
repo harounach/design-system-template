@@ -1,0 +1,8 @@
+@use "sass:map";
+
+@mixin applyType($typeName) {
+  font-size: map.get($typeName, "size");
+  font-weight: map.get($typeName, "fontWeight");
+  line-height: map.get($typeName, "lineHeight");
+  letter-spacing: map.get($typeName, "letterSpacing");
+}

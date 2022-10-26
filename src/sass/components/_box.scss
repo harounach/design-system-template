@@ -1,0 +1,194 @@
+@use "../abstracts/variables" as vars;
+
+// box-grid
+.box-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+// box
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+
+  // box--primary
+  &--primary {
+    background-color: vars.$primary;
+    color: white;
+  }
+
+  // box--primary-light
+  &--primary-light {
+    background-color: vars.$primaryLight;
+    color: black;
+  }
+
+  // box--primary-dark
+  &--primary-dark {
+    background-color: vars.$primaryDark;
+    color: white;
+  }
+
+  // box--secondary
+  &--secondary {
+    background-color: vars.$secondary;
+    color: black;
+  }
+
+  // box--secondary-light
+  &--secondary-light {
+    background-color: vars.$secondaryLight;
+    color: black;
+  }
+
+  // box--secondary-dark
+  &--secondary-dark {
+    background-color: vars.$secondaryDark;
+    color: white;
+  }
+
+  // box--green
+  &--green {
+    background-color: vars.$green;
+    color: white;
+  }
+
+  // box--green-light
+  &--green-light {
+    background-color: vars.$greenLight;
+    color: black;
+  }
+
+  // box--green-dark
+  &--green-dark {
+    background-color: vars.$greenDark;
+    color: white;
+  }
+
+  // box--orange
+  &--orange {
+    background-color: vars.$orange;
+    color: white;
+  }
+
+  // box--orange-light
+  &--orange-light {
+    background-color: vars.$orangeLight;
+    color: black;
+  }
+
+  // box--orange-dark
+  &--orange-dark {
+    background-color: vars.$orangeDark;
+    color: white;
+  }
+
+  // box--red
+  &--red {
+    background-color: vars.$red;
+    color: white;
+  }
+
+  // box--red-light
+  &--red-light {
+    background-color: vars.$redLight;
+    color: black;
+  }
+
+  // box--red-dark
+  &--red-dark {
+    background-color: vars.$redDark;
+    color: white;
+  }
+
+  // box--blue
+  &--blue {
+    background-color: vars.$blue;
+    color: white;
+  }
+
+  // box--blue-light
+  &--blue-light {
+    background-color: vars.$blueLight;
+    color: black;
+  }
+
+  // box--blue-dark
+  &--blue-dark {
+    background-color: vars.$blueDark;
+    color: white;
+  }
+
+  // box--black
+  &--black {
+    background-color: vars.$black;
+    color: white;
+  }
+
+  // box--gray90
+  &--gray90 {
+    background-color: vars.$gray90;
+    color: white;
+  }
+
+  // box--gray80
+  &--gray80 {
+    background-color: vars.$gray80;
+    color: white;
+  }
+
+  // box--gray70
+  &--gray70 {
+    background-color: vars.$gray70;
+    color: white;
+  }
+
+  // box--gray60
+  &--gray60 {
+    background-color: vars.$gray60;
+    color: white;
+  }
+
+  // box--gray50
+  &--gray50 {
+    background-color: vars.$gray50;
+    color: white;
+  }
+
+  // box--gray40
+  &--gray40 {
+    background-color: vars.$gray40;
+    color: white;
+  }
+
+  // box--gray30
+  &--gray30 {
+    background-color: vars.$gray30;
+    color: black;
+  }
+
+  // box--gray20
+  &--gray20 {
+    background-color: vars.$gray20;
+    color: black;
+  }
+
+  // box--gray10
+  &--gray10 {
+    background-color: vars.$gray10;
+    color: black;
+  }
+
+  // box--white
+  &--white {
+    background-color: vars.$white;
+    color: black;
+    border: 1px solid #000;
+  }
+}
