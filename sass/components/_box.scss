@@ -23,105 +23,33 @@
     color: white;
   }
 
-  // box--primary-light
-  &--primary-light {
-    background-color: vars.$primaryLight;
-    color: black;
-  }
-
-  // box--primary-dark
-  &--primary-dark {
-    background-color: vars.$primaryDark;
-    color: white;
-  }
-
   // box--secondary
   &--secondary {
     background-color: vars.$secondary;
     color: black;
   }
 
-  // box--secondary-light
-  &--secondary-light {
-    background-color: vars.$secondaryLight;
-    color: black;
-  }
-
-  // box--secondary-dark
-  &--secondary-dark {
-    background-color: vars.$secondaryDark;
+  // box--success
+  &--success {
+    background-color: vars.$success;
     color: white;
   }
 
-  // box--green
-  &--green {
-    background-color: vars.$green;
+  // box--warning
+  &--warning {
+    background-color: vars.$warning;
     color: white;
   }
 
-  // box--green-light
-  &--green-light {
-    background-color: vars.$greenLight;
-    color: black;
-  }
-
-  // box--green-dark
-  &--green-dark {
-    background-color: vars.$greenDark;
+  // box--error
+  &--error {
+    background-color: vars.$error;
     color: white;
   }
 
-  // box--orange
-  &--orange {
-    background-color: vars.$orange;
-    color: white;
-  }
-
-  // box--orange-light
-  &--orange-light {
-    background-color: vars.$orangeLight;
-    color: black;
-  }
-
-  // box--orange-dark
-  &--orange-dark {
-    background-color: vars.$orangeDark;
-    color: white;
-  }
-
-  // box--red
-  &--red {
-    background-color: vars.$red;
-    color: white;
-  }
-
-  // box--red-light
-  &--red-light {
-    background-color: vars.$redLight;
-    color: black;
-  }
-
-  // box--red-dark
-  &--red-dark {
-    background-color: vars.$redDark;
-    color: white;
-  }
-
-  // box--blue
-  &--blue {
-    background-color: vars.$blue;
-    color: white;
-  }
-
-  // box--blue-light
-  &--blue-light {
-    background-color: vars.$blueLight;
-    color: black;
-  }
-
-  // box--blue-dark
-  &--blue-dark {
-    background-color: vars.$blueDark;
+  // box--info
+  &--info {
+    background-color: vars.$info;
     color: white;
   }
 

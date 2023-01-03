@@ -2,15 +2,13 @@
   "name": "design-system-template",
   "version": "1.0.0",
   "description": "Design System for my apps",
-  "source": "src/index.html",
+  "private": true,
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build"
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
   },
   "author": "Haroun Ach",
   "license": "ISC",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.7.0",
-    "parcel": "^2.7.0"
+    "sass": "^1.56.2"
   }
 }
